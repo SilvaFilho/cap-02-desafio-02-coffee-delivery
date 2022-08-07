@@ -1,7 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 // eslint-disable-next-line no-undef
 module.exports = {
-    content: ["./src/**/*.tsx"],
+    content: [
+        "./src/**/*.tsx"
+    ],
     theme: {
         fontFamily: {
             header: ["Baloo 2", "sans-serif"],
