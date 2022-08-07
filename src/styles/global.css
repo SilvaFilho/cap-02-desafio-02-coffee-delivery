@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    @apply bg-gray-100;
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+    @apply font-text font-normal text-base;
+}
